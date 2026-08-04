@@ -16,11 +16,22 @@ A robust Windows tool to automatically backup photos and videos from your phone'
 
 ## Quick Start
 
-1. Install an FTP server app on your phone (e.g., FTP Server, WiFi FTP Server)
-2. Connect phone and PC to the same WiFi
-3. Double-click `run.bat`
-4. Press Enter to use default FTP, or type a new address
-5. Wait for backup to complete
+### 1. Enable FTP on Your Phone
+
+**Recommended:** Use **ES File Explorer** app (free, widely available):
+1. Open ES File Explorer on your phone
+2. Tap the menu (☰) → **"View on PC"**
+3. Tap **"Turn on"** to start the FTP server
+4. Note the FTP address shown (e.g., `ftp://192.168.1.243:3721/`)
+
+**Alternative:** Any FTP server app works (e.g., FTP Server, WiFi FTP Server, Solid Explorer)
+
+### 2. Run the Backup Tool
+
+1. Connect phone and PC to the **same WiFi**
+2. Double-click `run.bat` on your PC
+3. Press Enter to use default FTP, or type your phone's FTP address
+4. Wait for backup to complete
 
 ## Requirements
 
@@ -85,11 +96,22 @@ MIT License - feel free to use, modify, and share.
 
 ## 快速开始
 
-1. 在手机上安装FTP服务端应用（如 FTP Server、WiFi FTP Server）
-2. 手机和电脑连接同一WiFi
-3. 双击 `run.bat`
-4. 按回车使用默认FTP地址，或输入新地址
-5. 等待备份完成
+### 1. 在手机上开启FTP
+
+**推荐使用：** **ES 文件浏览器**（免费，应用商店可下载）
+1. 打开手机的 ES 文件浏览器
+2. 点击左上角菜单（☰）→ **"从PC访问"**
+3. 点击 **"打开"** 启动FTP服务
+4. 记录显示的FTP地址（如 `ftp://192.168.1.243:3721/`）
+
+**其他选择：** 任何FTP服务端应用均可（如 FTP Server、WiFi FTP Server、Solid Explorer）
+
+### 2. 运行备份工具
+
+1. 手机和电脑连接**同一WiFi**
+2. 在电脑上双击 `run.bat`
+3. 按回车使用默认地址，或输入手机的FTP地址
+4. 等待备份完成
 
 ## 系统要求
 
