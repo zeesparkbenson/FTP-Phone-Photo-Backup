@@ -14,6 +14,10 @@ A robust Windows tool to automatically backup photos and videos from your phone'
 - **Interactive** - prompts for FTP address each run (useful when phone IP changes)
 - **Configurable** - edit `config.json` to set defaults
 
+## Screenshot
+
+![Backup Complete - 47,449 files processed, 29,734 downloaded, 17,715 skipped, 0 failed](screenshots/screenshot.png)
+
 ## Quick Start
 
 ### 1. Enable FTP on Your Phone
